@@ -22,12 +22,12 @@
 
         <br>
 
-        <label for="">Nota</label>
+        <label for="">Nota:</label>
         <input type="range" name="nota" id="nota" min="0" max="10000">
 
         <br>
 
-        <label for="">Data do nascimento</label>
+        <label for="">Data de nascimento:</label>
         <input type="date" name="" id="">
 
         <br>
@@ -40,7 +40,7 @@
         <br>
         <br>
 
-        <label for="fruta">Fruta</label>
+        <label for="fruta">Fruta:</label>
         <label>
             <input type="radio" name="fruta" id="maça">Maça
 
@@ -60,8 +60,22 @@
 
         <br>
         <br>
-        <label for="telefone">Telefone</label>
+        <label for="telefone">Telefone:</label>
         <input type="tel" name="telefone" pattern="(0-9){5}-(0-9){4}" maxlength="10">
+        <br>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+            <option disabled selected>Selecione...</option>
+            <option value="ntl">Natal</option>
+            <option value="poa">Porto Alegre</option>
+            <option value="rec">Recife</option>
+            <option value="gru">São Paulo</option>
+        </select>
+        <br><br>
+        <label for="sugestao">Sugestão:</object></label>
+        <br>
+        <textarea name="sugestao" id="sugestao" cols="50" rows="7"placeholder="Sua sugestão aqui..." ></textarea>
     </form>
 </body>
 
